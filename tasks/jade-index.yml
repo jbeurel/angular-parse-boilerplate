@@ -1,7 +1,0 @@
-src: src/index.jade
-dest: dist/
-
-cache: true
-
-pipeline:
-  jade:
