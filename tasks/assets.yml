@@ -1,0 +1,4 @@
+src: src/assets/**/*
+dest: dist/
+
+cache: true

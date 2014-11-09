@@ -1,0 +1,22 @@
+doctype html
+html(lang="en", ng-app="angularParseBoilerplate")
+  head
+    title AngularJS Parse Boilerplate
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="css/app.css")
+
+  body
+    header#top.navbar.navbar-static-top.bs-docs-nav(role='banner')
+      .container
+        .navbar-header
+          a.navbar-brand
+            i.glyphicon.glyphicon-thumbs-up
+            |  AngularJS Parse Boilerplate
+
+    main.container(ui-view)
+
+    script(src="js/vendor.js")
+    script(src="js/templates.js")
+    script(src="js/app.js")
