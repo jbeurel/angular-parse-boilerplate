@@ -17,6 +17,7 @@
     "watch": "node_modules/.bin/gulp watch",
     "deploy-client": "node_modules/.bin/gulp deploy",
     "deploy-server": "parse deploy",
+    "deploy-parse": "parse deploy",
     "deploy": "npm run deploy-server && npm run deploy-client"
   },
   "dependencies": {
