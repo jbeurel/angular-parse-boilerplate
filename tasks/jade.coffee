@@ -12,6 +12,6 @@ gulp.task 'jade', (done) ->
       module: 'app.templates'
       standalone: true))
     .on 'error', gutil.log
-    .pipe gulp.dest('dist/js')
+    .pipe gulp.dest('public/js')
     .on 'end', done
   return

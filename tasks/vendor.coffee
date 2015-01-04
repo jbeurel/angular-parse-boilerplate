@@ -16,6 +16,6 @@ gulp.task 'vendor', (done) ->
   ]
   .pipe(concat('vendor.js'))
   .on 'error', gutil.log
-  .pipe gulp.dest('dist/js')
+  .pipe gulp.dest('public/js')
   .on 'end', done
   return

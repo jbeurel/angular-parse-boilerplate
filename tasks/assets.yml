@@ -1,4 +1,4 @@
 src: src/assets/**/*
-dest: dist/
+dest: public/
 
 cache: true

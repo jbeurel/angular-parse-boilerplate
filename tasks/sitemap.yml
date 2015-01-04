@@ -1,0 +1,4 @@
+src: src/sitemap.xml
+dest: public
+
+cache: false

@@ -1,5 +1,5 @@
 src: src/translations/*.yml
-dest: dist/translations
+dest: public/translations
 
 cache: true
 
