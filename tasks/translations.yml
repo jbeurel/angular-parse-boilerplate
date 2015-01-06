@@ -1,4 +1,4 @@
-src: src/translations/*.yml
+src: src-public/translations/*.yml
 dest: public/translations
 
 cache: true

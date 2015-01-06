@@ -4,7 +4,7 @@ concat = require 'gulp-concat'
 coffee = require 'gulp-coffee'
 
 gulp.task 'coffee-public', (done) ->
-  gulp.src 'src/**/*.coffee'
+  gulp.src 'src-public/**/*.coffee'
   .pipe coffee
     bare: true
   .pipe concat 'app.js'

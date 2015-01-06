@@ -1,4 +1,4 @@
-src: src/index.jade
+src: src-public/index.jade
 dest: public/
 
 cache: true
