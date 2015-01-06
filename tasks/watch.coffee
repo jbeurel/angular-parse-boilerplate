@@ -13,7 +13,8 @@ gulp.task 'webserver', ['build'], ->
 gulp.task 'watch', ->
   runSequence 'webserver', ->
     gulp.watch 'src/assets/**/*', ['assets']
-    gulp.watch 'src/**/*.coffee', ['coffee']
+    gulp.watch 'src/**/*.coffee', ['coffee-public']
+    gulp.watch 'src-cloud/**/*.coffee', ['coffee-cloud']
     gulp.watch 'src/index.jade', ['jade-index']
     gulp.watch 'src/**/*.jade', ['jade']
     gulp.watch 'src/styles/*.less', ['less']
