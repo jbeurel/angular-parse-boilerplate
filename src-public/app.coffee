@@ -10,10 +10,13 @@ app = angular.module 'angularParseBoilerplate', [
 ]
 
 app.config (
+  $locationProvider
   $stateProvider
   $urlRouterProvider
   ParseProvider
 ) ->
+
+  $locationProvider.hashPrefix '!'
 
   $stateProvider
   .state 'task',
