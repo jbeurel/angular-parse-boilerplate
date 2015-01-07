@@ -29,7 +29,7 @@ Angularjs Parse.com Boilerplate  [ ![Codeship Status for jbeurel/rider-ranking](
 # Configuration
 
 Edit the [config/global.json](./config/global.json) file to write the configuration of your Parse.com project in order to use the Parse's CLI.
-Edit the [public-src/app.coffee](./public-src/app.coffee) file to replace the ParseProvider keys.
+Edit the [src-public/app.coffee](./src-public/app.coffee) file to replace the ParseProvider keys.
 
 Enjoy!
 
