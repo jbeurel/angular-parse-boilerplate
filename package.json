@@ -15,10 +15,8 @@
     "test:unit": "node_modules/.bin/karma start test/karma.coffee &",
     "test:functional": "webdriver-manager start &  protractor --require coffee-script/register test/protractor.conf.coffee",
     "watch": "node_modules/.bin/gulp watch",
-    "deploy-client": "node_modules/.bin/gulp deploy",
-    "deploy-server": "parse deploy",
-    "deploy-parse": "parse deploy",
-    "deploy": "npm run deploy-server && npm run deploy-client"
+    "deploy-github": "node_modules/.bin/gulp deploy",
+    "deploy-parse": "parse deploy"
   },
   "dependencies": {
     "bower": "1.3.x",

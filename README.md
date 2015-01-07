@@ -12,7 +12,6 @@ Angularjs Parse.com Boilerplate  [ ![Codeship Status for jbeurel/rider-ranking](
 
 ## Framework|Tools
 - [AngularJS](http://angularjs.org/)
-- [AngularUI (Bootstrap)](http://angular-ui.github.io/bootstrap/)
 - [Bootstrap3](http://getbootstrap.com/)
 - [Gulp](http://gulpjs.com/)
 - Livereload
@@ -25,6 +24,13 @@ Angularjs Parse.com Boilerplate  [ ![Codeship Status for jbeurel/rider-ranking](
 
   `npm install`
 
+# Configuration
+
+Edit the [config/global.json](./config/global.json) file to write the configuration of your Parse.com project in order to use the Parse's CLI.
+Edit the [public-src/app.coffee](./public-src/app.coffee) file to replace the ParseProvider keys.
+
+Enjoy!
+
 # Development server
 
   `npm run-script watch`
@@ -32,6 +38,15 @@ Angularjs Parse.com Boilerplate  [ ![Codeship Status for jbeurel/rider-ranking](
 Access to the application at this address: http://127.0.0.1:8008
 The livereload update your browser each time you change source files.
 
-# Deploy on GitHub Pages
+The Frontend source files are into the [src-public](./src-public) directory and compile to the public directory.
+The Backend source files are into the [src-cloud](./src-cloud) directory and compile to the cloud directory.
 
-  `npm run-script deploy`
+# Deploy on Parse Cloud
+
+  `npm run-script deploy-parse`
+
+# Deploy on Github Pages (alternative)
+
+You can also deploy the frontend on the Github Pages of your repo by launching this command:
+
+  `npm run-script deploy-github`
