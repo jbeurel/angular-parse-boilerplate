@@ -27,8 +27,8 @@ app.config (
   $urlRouterProvider.otherwise '/fr'
 
   ParseProvider.initialize(
-    "N2xyMRbsrFcBuzq7TXLwieDGM9FzwODEY44LLFOP",
-    "zTAHO7HKWvbV1awq5wQlexRc368lOQtSbmycOi0O"
+    "N2xyMRbsrFcBuzq7TXLwieDGM9FzwODEY44LLFOP", # Application ID
+    "zTAHO7HKWvbV1awq5wQlexRc368lOQtSbmycOi0O"  # REST API Key
   )
 
 app.run ($rootScope, $state) ->
