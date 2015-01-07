@@ -3,6 +3,8 @@ Angularjs Parse.com Boilerplate  [ ![Codeship Status for jbeurel/rider-ranking](
 
 [Demo :-)](http://ng-parse-boilerplate.parseapp.com)
 
+![Demo Screenshot](./doc/angular-parse-boilerplate.png)
+
 # Technologies
 
 ## Languages
