@@ -12,7 +12,6 @@
     "moment": "2.6.x",
     "placeholders": "3.0.x",
     "lodash": "~2.4.1",
-    "parse-angular-patch": "*",
     "angular-parse": "*"
   }
 }
