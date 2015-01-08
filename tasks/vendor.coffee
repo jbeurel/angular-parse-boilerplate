@@ -11,6 +11,8 @@ gulp.task 'vendor', (done) ->
     'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js'
     'bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.min.js'
     'bower_components/angular-parse/angular-parse.js'
+    'bower_components/angulartics/src/angulartics.js'
+    'bower_components/angulartics/src/angulartics-ga.js'
     'bower_components/moment/moment.js'
     'bower_components/lodash/dist/lodash.js'
   ]

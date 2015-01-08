@@ -7,6 +7,8 @@ app = angular.module 'angularParseBoilerplate', [
   'ui.bootstrap'
   'app.templates'
   'Parse'
+  'angulartics'
+  'angulartics.google.analytics'
 ]
 
 app.config (

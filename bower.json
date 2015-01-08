@@ -12,6 +12,7 @@
     "moment": "2.6.x",
     "placeholders": "3.0.x",
     "lodash": "~2.4.1",
-    "angular-parse": "*"
+    "angular-parse": "*",
+    "angulartics": "~0.17.1"
   }
 }
