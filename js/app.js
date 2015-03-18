@@ -1,9 +1,10 @@
 'use strict';
 var app;
 
-app = angular.module('angularParseBoilerplate', ['ng', 'ngResource', 'ui.router', 'ui.bootstrap', 'app.templates', 'Parse']);
+app = angular.module('angularParseBoilerplate', ['ng', 'ngResource', 'ui.router', 'ui.bootstrap', 'app.templates', 'Parse', 'angulartics', 'angulartics.google.analytics']);
 
-app.config(function($stateProvider, $urlRouterProvider, ParseProvider) {
+app.config(function($locationProvider, $stateProvider, $urlRouterProvider, ParseProvider) {
+  $locationProvider.hashPrefix('!');
   $stateProvider.state('task', {
     url: '/:locale',
     controller: 'TaskCtrl',
