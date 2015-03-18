@@ -30,7 +30,6 @@
     "gulp-coffee": "1.4.x",
     "gulp-concat": "2.1.x",
     "gulp-connect": "2.0.x",
-    "gulp-convert": "0.1.x",
     "gulp-filesize": "0.0.x",
     "gulp-git": "0.3.x",
     "gulp-jade": "0.4.x",
