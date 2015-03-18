@@ -11,9 +11,6 @@
   },
   "scripts": {
     "postinstall": "node_modules/.bin/bower install | xargs echo && gulp build",
-    "test": "karma start test/karma.coffee --single-run & webdriver-manager start & protractor --require coffee-script/register test/protractor.conf.coffee",
-    "test:unit": "node_modules/.bin/karma start test/karma.coffee &",
-    "test:functional": "webdriver-manager start &  protractor --require coffee-script/register test/protractor.conf.coffee",
     "watch": "node_modules/.bin/gulp watch",
     "deploy-github": "node_modules/.bin/gulp deploy",
     "deploy-parse": "parse deploy"
@@ -47,32 +44,13 @@
     "run-sequence": "0.3.x"
   },
   "devDependencies": {
-    "chai": "1.8.x",
-    "chai-as-promised": "4.1.x",
-    "cucumber": "*",
     "gulp-debug": "^0.3.0",
     "gulp-gh-pages": "^0.3.3",
     "gulp-minify-css": "^0.3.6",
     "gulp-minify-html": "^0.1.4",
     "gulp-webserver": "^0.3.4",
-    "karma": "0.12.x",
-    "karma-chai": "0.1.x",
-    "karma-cli": "0.0.4",
-    "karma-coffee-preprocessor": "0.1.x",
-    "karma-coverage": "0.2.x",
-    "karma-mocha": "0.1.x",
-    "karma-phantomjs-launcher": "0.1.x",
-    "karma-sinon-chai": "0.1.x",
-    "phantomjs": "1.9.x",
-    "protractor": "0.22.x",
-    "should": "2.1.x",
-    "sinon": "1.10.x",
-    "sinon-chai": "2.5.x",
     "webdriver-manager": "0.0.4"
   },
   "version": "0.0.0",
-  "main": "gulpfile.js",
-  "directories": {
-    "test": "test"
-  }
+  "main": "gulpfile.js"
 }
