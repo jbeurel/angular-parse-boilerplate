@@ -12,7 +12,7 @@
   "scripts": {
     "postinstall": "node_modules/.bin/bower install | xargs echo && gulp build",
     "watch": "node_modules/.bin/gulp watch",
-    "deploy-github": "node_modules/.bin/gulp deploy",
+    "deploy-github": "node_modules/.bin/gulp deploy-github-pages",
     "deploy-parse": "parse deploy"
   },
   "dependencies": {
